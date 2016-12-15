@@ -282,7 +282,7 @@ end
   ignore(/.*\.keep/)
   ignore(%r{\.tag/.*})
 
-  set :build_dir, 'docs' if File.directory? 'docs/'
+  set :build_dir, 'docs'
   set :css_dir, 'css' if File.directory? 'src/css/'
   set :fonts_dir, 'fonts' if File.directory? 'src/fonts/'
   set :images_dir, 'img' if File.directory? 'src/img/'
