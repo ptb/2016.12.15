@@ -459,10 +459,11 @@ const pipe = {
       .pipe(task.wrap.below, MIN)
       .pipe(task.wrap.tag.above, dir[3])
       .pipe(task.wrap.tag.below, dir[3])
-      .pipe(task.compile.riot)
-      .pipe(task.minify.js, true)
-      .pipe(task.wrap.riot)
-      .pipe(task.wrap.license)
+
+      // .pipe(task.compile.riot)
+      // .pipe(task.minify.js, true)
+      // .pipe(task.wrap.riot)
+      // .pipe(task.wrap.license)
   },
   "sass": function () {
     return plug.lazypipe()
