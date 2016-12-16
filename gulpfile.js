@@ -204,6 +204,18 @@ const opts = new function () {
         "index": "./index.js",
         "share": ["riot"]
       },
+      "module": {
+        "preLoaders": [
+          {
+            "exclude": /node_modules/,
+            "loader": "riotjs-loader",
+            "query": {
+              "type": "none"
+            },
+            "test": /\.tag$/
+          }
+        ]
+      },
       "output": {
         "filename": path.join("js", "[name].js")
       },
@@ -223,6 +235,9 @@ const opts = new function () {
             "comments": false,
             "indent_level": 2
           }
+        }),
+        new plug.webpack.ProvidePlugin({
+          "riot": "riot"
         })
       ]
     }
