@@ -3746,6 +3746,7 @@ new ExtractTextWebpackPlugin({
   }),
   plug.webpackHotMiddleware(webpack)
 ],
+npm install --save-dev extract-text-webpack-plugin@2.0.0-beta.4
 #+END_EXAMPLE
 
 *** Add Package: ~webpack~
