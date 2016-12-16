@@ -1,4 +1,4 @@
-import "./example-tag"
+import "./example-tag.tag"
 import {
   mount
 } from "riot"
