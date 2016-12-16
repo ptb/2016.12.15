@@ -547,11 +547,12 @@ gulp.task("build", gulp.series(
         .pipe(pipe.js(false)())
       )
       .pipe(task.save.tmp())
-  },
-  function webpack () {
-    return gulp.src(path.join(TMP, "js", "index.js"))
-      .pipe(pipe.webpack()())
-      .pipe(task.save.tmp())
+
+  // },
+  // function webpack () {
+  //   return gulp.src(path.join(TMP, "js", "index.js"))
+  //     .pipe(pipe.webpack()())
+  //     .pipe(task.save.tmp())
   }
 ))
 
