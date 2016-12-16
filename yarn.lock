@@ -3507,7 +3507,7 @@ loader-runner@^2.2.0:
   version "2.2.0"
   resolved loader-runner-2.2.0.tgz#824c1b699c4e7a2b6501b85902d5b862bf45b3fa
 
-loader-utils@^0.2.11, loader-utils@^0.2.16:
+loader-utils@^0.2.11, loader-utils@^0.2.16, loader-utils@^0.2.6:
   version "0.2.16"
   resolved loader-utils-0.2.16.tgz#f08632066ed8282835dff88dfb52704765adee6d
   dependencies:
@@ -5271,6 +5271,10 @@ riot-cli@^3.0.0:
     rollup "^0.36.3"
     shelljs "^0.7.5"
 
+riot-compiler@^2.3.22:
+  version "2.5.7"
+  resolved riot-compiler-2.5.7.tgz#dc418366f1178d39c6c18fd9fc0190cbeecc1695
+
 riot-compiler@^3.0.0, riot-compiler@^3.1.1:
   version "3.1.1"
   resolved riot-compiler-3.1.1.tgz#f456934bb863231b21807fa185a5a9edaf062008
@@ -5293,6 +5297,13 @@ riot@3.0.4, riot@^3.0.4:
     riot-tmpl "^3.0.1"
     simple-dom "0.3.2"
     simple-html-tokenizer "^0.2.6"
+
+riotjs-loader@^3.0.0:
+  version "3.0.0"
+  resolved riotjs-loader-3.0.0.tgz#51f640d7e3ac32cfa106fa240dac26077fa43b3c
+  dependencies:
+    loader-utils "^0.2.6"
+    riot-compiler "^2.3.22"
 
 ripemd160@0.2.0:
   version "0.2.0"
@@ -6008,7 +6019,7 @@ ua-parser-js@0.7.12:
   version "0.7.12"
   resolved ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb
 
-uglify-js@2.7.0, uglify-js@2.7.x:
+uglify-js@2.7.0:
   version "2.7.0"
   resolved uglify-js-2.7.0.tgz#f021e38ba2ca740860f5bd5c695c2a817345f0ec
   dependencies:
@@ -6017,7 +6028,7 @@ uglify-js@2.7.0, uglify-js@2.7.x:
     uglify-to-browserify "~1.0.0"
     yargs "~3.10.0"
 
-uglify-js@~2.7.3:
+uglify-js@2.7.x, uglify-js@~2.7.3:
   version "2.7.5"
   resolved uglify-js-2.7.5.tgz#4612c0c7baaee2ba7c487de4904ae122079f2ca8
   dependencies:
