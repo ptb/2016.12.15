@@ -1,5 +1,4 @@
-const riot = require("riot")
-
 import "./example-tag"
+import { mount } from "riot"
 
-riot.mount("*")
+mount("*")
