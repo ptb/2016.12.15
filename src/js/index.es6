@@ -2,6 +2,6 @@ import {
   mount
 } from "riot"
 
-import "./example-tag.tag"
+import "../.tmp/js/example-tag.tag"
 
 mount("*")
