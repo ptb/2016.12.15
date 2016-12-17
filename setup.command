@@ -2896,7 +2896,7 @@ cat <<-EOF | patch 1> /dev/null
 @@ -117,0 +118,6 @@
 +    "inject": {
 +      "css": {
-+        "above": "<style scoped>",
++        "above": "<style>",
 +        "below": "</style>"
 +      }
 +    },
